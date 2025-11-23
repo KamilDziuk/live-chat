@@ -23,31 +23,10 @@
 
 ## Technology Stack
 
-- **Frontend:** React, TypeScript, React Icons, Socket.IO client
-- **Backend:** Node.js, Express, Socket.IO
+- **Frontend:** React, TypeScript, React Icons, Socket.IO(client)
+- **Backend:** Node.js, Express, Socket.IO(server)
 - **Build Tool:** Vite (TypeScript)
 
-### Main Dependencies
-
-```json
-"packages": {
-  "": {
-    "name": "websoce",
-    "version": "1.0.0",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^5.1.0",
-      "socket.io": "^4.8.1"
-    }
-  }
-},
-"dependencies": {
-  "react": "^19.1.1",
-  "react-dom": "^19.1.1",
-  "react-icons": "^5.5.0",
-  "socket.io-client": "^4.8.1"
-}
-````
 
 ---
 
