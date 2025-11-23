@@ -35,5 +35,5 @@ io.on("connection", (socket) => {
 });
 
 httpServer.listen(3004, () => {
-  console.log("🚀 Serwer działa na http://localhost:3004");
+  console.log("http://localhost:3004");
 });
