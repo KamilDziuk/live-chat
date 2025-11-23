@@ -1,0 +1,78 @@
+.mainWindowText {
+  color: #fff;
+  padding: 1%;
+  font-size: 20px;
+}
+.communicationContener {
+  display: flex;
+}
+.nick {
+  width: 250px;
+}
+.nickColor {
+  width: 20px;
+  padding: 1px;
+  margin: 10px;
+  border: 0;
+}
+.askInputData {
+  color: #ccc;
+}
+.responseBox {
+  position: relative;
+  width: 100%;
+  height: 68%;
+  margin-bottom: 5px;
+  overflow: auto;
+  padding: 0;
+  overflow-y: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgba(49, 49, 49, 0.938);
+  background: #0d0d0d;
+  scroll-behavior: smooth;
+}
+.assistantWindow {
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000000a8;
+  transform: translateX(-50%);
+  left: 50%;
+  backdrop-filter: blur(10px);
+  border-radius: 0rem;
+  z-index: 9999;
+}
+.responseText {
+  color: #a3a3a3;
+  text-align: center;
+  padding: 1px;
+}
+@media screen and (max-width: 500px) {
+  .mainWindowText {
+    padding: 4%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .mainWindowText {
+    padding: 5%;
+  }
+  .nick {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .mainWindowText {
+    padding: 7%;
+  }
+
+  .responseText {
+    margin-top: 1px;
+    margin-left: 5px;
+    display: flex;
+    padding: 5px 5px 5px 5px;
+  }
+}

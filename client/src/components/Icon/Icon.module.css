@@ -1,0 +1,13 @@
+
+.cloudIcon {
+  position: absolute;
+}
+.sendAsk {
+  padding: 0px 10px 0px 0px;
+}
+
+.writing {
+  color: rgb(211, 211, 211);
+  padding: 20px;
+  text-align: end;
+}

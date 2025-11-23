@@ -1,0 +1,37 @@
+button {
+  background-color: #00000000;
+  border: none;
+}
+
+input {
+  all: unset;
+  cursor: text;
+  font-size: 17px;
+  position: relative;
+  width: 95%;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 1rem;
+  border: 1px solid rgb(49, 49, 49);
+  background: #0d0d0d;
+  transition: 1.3s;
+}
+
+i {
+  position: relative;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 26px;
+  padding: 0px 5px 0px 5px;
+  display: inline;
+}
+
+i:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+input:hover {
+  border: 1px solid rgb(255, 255, 255);
+  transition: 1.3s;
+}
