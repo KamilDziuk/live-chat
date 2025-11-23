@@ -3,7 +3,7 @@
 
 ![presentation](/presentation.gif)
 
-[Live version](https://livechat-fue3.onrender.com/) | [GitHub Repository](https://github.com/KamilDziuk/live-chat)
+[Live version](https://livechat-fue3.onrender.com/)
 
 ## Overview
 
